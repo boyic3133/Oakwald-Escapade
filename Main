@@ -1,0 +1,10 @@
+import pygame
+import random
+
+height = 800
+width = 600
+pygame.display.set_mode((height,width))
+# colours
+WHITE = [255,255,255]
+BLACK = [0,0,0]
+
