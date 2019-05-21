@@ -34,4 +34,5 @@ def main():
 
     screen.blit(word('this', 70, BLACK, 0, 0))
 
+
 main()
