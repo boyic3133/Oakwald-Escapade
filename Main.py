@@ -1,5 +1,5 @@
 import pygame
-
+#sowad
 # import random
 
 pygame.init()
