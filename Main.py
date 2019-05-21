@@ -13,6 +13,12 @@ BLACK = [0, 0, 0]
 
 close = True
 
+def word(text, size, color, x, y):
+    size = pygame.font.SysFont('Arial', size)
+    word_2 = size.render(text, True, color)
+    end = (word_2, (x, y))
+    return end
+
 
 def main():
     while close:
@@ -25,5 +31,7 @@ def main():
                     pygame.quit()
                     quit()
 
+
+    screen.blit(word('this', 70, BLACK, 0, 0))
 
 main()
